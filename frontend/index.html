@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My cool dapp</title>
+    <script src="./lib/concordium.min.js"></script>
+    <script src="./lib/concordiumHelpers.min.js"></script>
+    <meta charset="utf-8" />
+    <script src="./index.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <h3 id="accountAddress">Account address:</h3>
+    </div>
+    <button id="connect">Connect</button>
+    <button id="sendInit">Initiate two step transfer contract</button>
+    <button id="sendTransfer">Send transfer</button>
+    <button id="sendDeposit">deposit in two step transfer</button>
+    <button id="sendReceive">Initiate Receive in two step transfer</button>
+    <br />
+    Message: <input type="text" id="message" value="I believe in miracles" />
+    <button id="signMessage">SignMessage</button>
+  </body>
+</html>
